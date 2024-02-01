@@ -19,7 +19,7 @@ export class RecipeService {
   ): number {
     const k1 = 1.5;
     const b = 0.75;
-    const tagWeight = 0.9;
+    const tagWeight = 3;
     const cleanedQuery = query
       .replace(/\s(a|e|o|ou|na|no|de|da|do|um|uma|os|as|com|em|como)\s/gi, " ")
       .replace(/\s+/g, " ")
